@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    
+    
+   
+    height: 100%;
+    background-color: #ffffff;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.yutaka {
+    background-image: url('bg1.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ikl1 h2{
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.ikl2
+
+
+.navHome,
+.navAbout,
+.navWork,
+.contact {
+
+    padding: 3px;
+    border-radius: 4px;
+}
+
+
+
+.logo {
+    color: #5b0909;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: 'Playball', cursive;
+}
+
+.nav-links {
+    display: flex;
+    width: 60%;
+
+}
+
+.nav-links li {
+    margin-left: 54px;
+}
+
+.navHome:hover {
+    background-color: white;
+    color: #5D4954;
+}
+
+.navAbout:hover {
+    background-color: white;
+    color: #5D4954;
+}
+
+.navWork:hover {
+    background-color: white;
+    color: #5D4954;
+}
+
+.contact:hover {
+    background-color: white;
+    color: #5D4954;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgba(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Tulisan besar tengah */
+
+.lg-heading h2 {
+    font-size: 50px;
+    top: 50%;
+    left: 23%;
+    position: absolute;
+    color: #fff;
+    letter-spacing: 5px;
+
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
